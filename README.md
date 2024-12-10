@@ -14,6 +14,19 @@ This project aims to predict the Air Quality Index (AQI) and related pollutant c
 - Model checkpoints and logs for monitoring training progress.
 - Example results visualizations (plots) included.
 
+## Data Availability
+
+This repository does **not** include the raw or processed datasets due to size constraints and licensing terms.  
+You can download the raw dataset directly from [Kaggle](https://www.kaggle.com/datasets/decide-soluciones/air-quality-madrid).
+
+### How to Use the Dataset
+
+1. Download the dataset from the link above.
+2. Place the raw data in the following folder structure within the repository:
+data/ ├── raw/ │ ├── stations.csv │ ├── csvs_per_year/ │ │ ├── madrid_2001.csv │ │ ├── madrid_2002.csv │ │ ├── ... └── processed/ (empty, this folder will contain preprocessed data after running preprocessing scripts)
+3. After placing the raw data in the correct folder, you can proceed with the preprocessing step as described in the **Usage** section.
+
+
 ## Directory Structure
 
 ├── data/
